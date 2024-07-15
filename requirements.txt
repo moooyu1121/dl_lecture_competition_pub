@@ -1,4 +1,5 @@
-torch==2.0.1
+numpy<2.0
+# torch==2.0.1
 torchaudio
 torchvision
 torchmetrics==0.11.4
