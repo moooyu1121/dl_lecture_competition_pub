@@ -406,4 +406,5 @@ def main():
     np.save("submission.npy", submission)
 
 if __name__ == "__main__":
+    print(torch.cuda.is_available())
     main()
